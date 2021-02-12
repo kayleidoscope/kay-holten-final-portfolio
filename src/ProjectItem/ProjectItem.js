@@ -2,8 +2,8 @@ import React from 'react';
 import './ProjectItem.css'
 
 function ProjectItem(props) {
-  const skillsLis = props.skillsTech.map(item => {
-    return <li>{item}</li>
+  const skillsLis = props.skillsTech.map((item) => {
+    return <li key={item}>{item}</li>
   })
 
   return (
