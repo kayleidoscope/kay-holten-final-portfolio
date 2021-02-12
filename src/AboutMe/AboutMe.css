@@ -24,6 +24,8 @@
 #about-me img {
     margin: auto;
     display: block;
+    width: 100%;
+    max-width: 300px;
 }
 
 @media all and (min-width: 1400px) {

@@ -2,7 +2,7 @@ import React from 'react';
 import ProjectItem from '../ProjectItem/ProjectItem'
 import projectData from '../ProjectsData'
 import quizPhoto from '../images/lesbian-history-quiz.png';
-import notefulPhoto from '../images/noteful-CHANGEME.png';
+import notefulPhoto from '../images/noteful.png';
 import sdcPhoto from '../images/social-distance-party.png';
 import storyBitsPhoto from '../images/story-bits.png';
 import ttPhoto from '../images/tabletop-tour.png';
