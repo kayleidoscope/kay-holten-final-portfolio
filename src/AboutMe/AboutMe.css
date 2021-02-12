@@ -1,16 +1,5 @@
-#about-me .top {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-#about-me .top .item {
-    min-width: 0;
-    flex: 1;
-}
-
-#about-me .top p {
-    margin-left: 10px;
+#about-me .intro {
+    text-align: center;
 }
 
 #about-me {
@@ -23,8 +12,29 @@
 #about-me .skills {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    word-wrap: normal;
+    list-style-type: circle;
+    margin: 16px auto;
+    width: 99%;
 }
 #about-me .breakout {
     border: 2px solid #57CC99;
+    margin: auto;
+    display: block;
+}
+
+#about-me img {
+    margin: auto;
+    display: block;
+}
+
+@media all and (min-width: 600px) {
+    #about-me .skills {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media all and (min-width: 1400px) {
+    #about-me .skills {
+        grid-template-columns: 1fr 1fr;
+    }
 }

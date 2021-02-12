@@ -3,15 +3,19 @@ import Header from './Header/Header'
 import AboutMe from './AboutMe/AboutMe'
 import Contact from './Contact/Contact'
 import ProjectSection from './ProjectSection/ProjectSection'
-import ProjectItem from './ProjectItem/ProjectItem';
+import FunFacts from './FunFacts/FunFacts'
+import './App.css'
 
 function App() {
   return (
     <main className='App'>
       <Header />
-      <AboutMe />
-      <ProjectSection />
-      <Contact />
+      <div className="big-screen">
+        <AboutMe />
+        <ProjectSection />
+        <FunFacts />
+        <Contact/>
+      </div>
     </main>
   );
 }

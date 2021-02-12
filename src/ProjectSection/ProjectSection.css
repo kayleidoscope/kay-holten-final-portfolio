@@ -8,3 +8,21 @@
 #projects ul {
     padding-left: 0;
 }
+
+@media all and (min-width: 600px) {
+    #projects {
+        grid-row: span 3;
+    }
+}
+
+@media all and (min-width: 1000px) {
+    #projects .cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    #projects {
+        grid-row: span 3;
+    }
+
+}
