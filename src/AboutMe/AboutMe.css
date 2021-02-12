@@ -11,7 +11,6 @@
 
 #about-me .skills {
     display: grid;
-    grid-template-columns: 1fr 1fr;
     list-style-type: circle;
     margin: 16px auto;
     width: 99%;
@@ -25,12 +24,6 @@
 #about-me img {
     margin: auto;
     display: block;
-}
-
-@media all and (min-width: 600px) {
-    #about-me .skills {
-        grid-template-columns: 1fr;
-    }
 }
 
 @media all and (min-width: 1400px) {
