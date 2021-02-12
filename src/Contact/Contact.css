@@ -8,3 +8,7 @@
 #contact ul {
     list-style: circle;
 }
+
+address {
+    font-style: normal;
+}

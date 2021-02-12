@@ -5,7 +5,7 @@ function ProjectItem(props) {
   return (
     <article className='project-item'>
       <h3>{props.title}</h3>
-      <img src={props.image} />
+      <img src={props.image} alt={`Screenshot from ${props.title}`}/>
       <p>{props.description}</p>
       <ul className="links">
         <li>Visit <a href={props.liveSite}>live site</a></li>
