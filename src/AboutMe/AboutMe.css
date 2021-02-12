@@ -1,0 +1,30 @@
+#about-me .top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#about-me .top .item {
+    min-width: 0;
+    flex: 1;
+}
+
+#about-me .top p {
+    margin-left: 10px;
+}
+
+#about-me {
+    margin: 20px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 10px double black;
+}
+
+#about-me .skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    word-wrap: normal;
+}
+#about-me .breakout {
+    border: 2px solid #57CC99;
+}
