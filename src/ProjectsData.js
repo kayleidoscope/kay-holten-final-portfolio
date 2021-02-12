@@ -2,14 +2,15 @@ const projectData = [
     {
         "id": 1,
         "title": "Story Bits",
-        "description": "Story Bits is a story- and world-building tool meant to help writers and Dungeons and Dragons DMs flesh out and keep track of characters and settings..",
+        "description": "Story Bits is a story- and world-building tool meant to help writers and Dungeons and Dragons DMs flesh out and keep track of characters and settings.",
         "skillsTech": [
             "React",
             "Node.js",
             "Javascript",
-            "a RESTful API",
-            "PostgreSQL",
+            "APIs",
+            "Postgres",
             "Knex",
+            "Express",
             "Heroku",
             "Vercel",
             "HTML",
@@ -23,13 +24,13 @@ const projectData = [
     {
         "id": 2,
         "title": "Tabletop Tour",
-        "description": "Tabletop Tour is a tool for all tabletop games: board games, card games, and more! Find games, review games, and keep track of games you've played.",
+        "description": "Tabletop Tour is a tool for all tabletop gamers, where you can find, review, and keep a log of board games, card games, and more!",
         "skillsTech": [
             "React",
             "Node.js",
             "Javascript",
-            "a RESTful API",
-            "PostgreSQL",
+            "APIs",
+            "Postgres",
             "Knex",
             "Heroku",
             "Vercel",
@@ -44,11 +45,11 @@ const projectData = [
     {
         "id": 3,
         "title": "An American Lesbian History Quiz",
-        "description": "Test your knowledge of queer lady history from the 1900s. Inspired by the book 'Odd Girls and Twilight Lovers' by Lillian Faderman.",
+        "description": "This quiz is for anyone interested in queer history. Test your knowledge of 20th-century lesbian culture! Inspired by the book 'Odd Girls and Twilight Lovers' by Lillian Faderman.",
         "skillsTech": [
             "jQuery",
             "Javascript",
-            "GitHub Pages",
+            "GitHub",
             "HTML",
             "CSS"
         ],
@@ -60,13 +61,13 @@ const projectData = [
     {
         "id": 4,
         "title": "Noteful",
-        "description": "A minimialist note app to keep track of whatever you need to keep track of.",
+        "description": "This minimialist note app helps you take notes and make lists to keep you organized.",
         "skillsTech": [
             "React",
             "Node.js",
             "Javascript",
-            "a RESTful API",
-            "PostgreSQL",
+            "APIs",
+            "Postgres",
             "Knex",
             "Heroku",
             "Vercel",
@@ -85,8 +86,7 @@ const projectData = [
         "skillsTech": [
             "jQuery",
             "Javascript",
-            "a RESTful API",
-            "GitHub Pages",
+            "APIs",
             "HTML",
             "CSS"
         ],

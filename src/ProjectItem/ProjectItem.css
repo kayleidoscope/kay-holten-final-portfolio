@@ -11,3 +11,29 @@
 .project-item .links {
     margin-left: 40px;
 }
+
+.project-item .skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media all and (min-width: 1000px) {
+    .project-item .skills {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .project-item .skills {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media all and (min-width: 1500px) {
+    .project-item .skills {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
